@@ -1,0 +1,17 @@
+!pip install beautifulsoup4
+!pip install lxml
+!pip install requests
+
+from bs4 import BeautifulSoup
+import requests
+
+import pandas as pd
+
+import matplotlib.pyplot as plt
+import seaborn as sns
+
+import numpy as np
+from sklearn.linear_model import LinearRegression #библиотека для линии тренда
+
+Полученная таблица должна появиться в среде после ее сбора (файл будет приложен)
+
